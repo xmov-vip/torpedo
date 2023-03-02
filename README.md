@@ -53,7 +53,6 @@ double computeAccuracy(TargetState target, TorpedoState state)：计算命中精
 
 
 
-
 项目简介
 本项目旨在开发一个鱼雷弹道模拟器，可以模拟鱼雷在不同水深、温度、盐度和海流等环境下的运动轨迹。同时，本项目还包括水下目标搜索器、自动导引系统和命中评估器等功能，可为鱼雷的使用和测试提供便利。
 
