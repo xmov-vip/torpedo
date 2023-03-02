@@ -1,6 +1,10 @@
 #ifndef HITEVALUATOR_H
 #define HITEVALUATOR_H
 
+struct HitEvalParams {
+    double hitRadius;  // 命中半径
+};
+
 
 // 命中评估器类，负责判断鱼雷是否命中目标以及命中的精度等信息
 class HitEvaluator {
