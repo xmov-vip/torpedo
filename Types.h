@@ -58,21 +58,6 @@ struct GuidanceParams {
     double maxTime;  // 最大追踪时间
 };
 
-// 导引命令
-struct GuidanceCommand {
-    double ax;  // x方向加速度
-    double ay;  // y方向加速度
-    double az;  // z方向加速度
-};
-
-// 导引参数
-struct GuidanceParams {
-    double kx;  // x方向比例系数
-    double ky;  // y方向比例系数
-    double kz;  // z方向比例系数
-};
-
-
 // 命中评估参数结构体
 struct HitEvalParams {
     double accuracyThreshold; // 命中精度阈值
